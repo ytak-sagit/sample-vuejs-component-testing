@@ -13,7 +13,9 @@
 
 <script setup lang="ts">
 import { useTemplateRef } from 'vue'
+// import BottomSheet from './version-dialog/BottomSheet.vue'
 import BottomSheet from './version-div/BottomSheet.vue'
+// import BottomSheet from './version-div+teleport/BottomSheet.vue'
 
 // BottomSheetコンポーネントへの参照
 const bottomSheetRef = useTemplateRef('bottom-sheet')
